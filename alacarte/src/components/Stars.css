@@ -1,9 +1,0 @@
-.Stars-clickable:hover ion-icon {
-  stroke: #E65FEF;
-  stroke-width: 32px;
-}
-
-.Stars-clickable ion-icon:hover~ion-icon {
-  stroke-width: 0;
-
-}
