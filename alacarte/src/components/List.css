@@ -1,0 +1,130 @@
+button:focus {
+  border: none;
+  outline: none;
+}
+
+.List {
+  position: top;
+  width: 75%;
+  min-height: 20%;
+  position: absolute;
+  background: #fff;
+  border-radius: 3vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
+  bottom: 80%;
+  left: 50%;
+  z-index: 20;
+  padding-top: 2%;
+  transform: translate(-50%, 100%);
+  -webkit-transform: translate(-50%, 100%);
+  -moz-transform: translate(-50%, 100%);
+  -ms-transform: translate(-50%, 100%);
+  -o-transform: translate(-50%, 100%);
+  -webkit-border-radius: 3vh;
+  -moz-border-radius: 3vh;
+  -ms-border-radius: 3vh;
+  -o-border-radius: 3vh;
+  transition: ease-in-out .6s;
+  -webkit-transition: ease-in-out .6s;
+  -moz-transition: ease-in-out .6s;
+  -ms-transition: ease-in-out .6s;
+  -o-transition: ease-in-out .6s;
+}
+
+.List-streetName {
+  font-size: 2.2rem;
+  user-select: none;
+  border: none;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Roboto;
+  margin-top: 3%;
+  width: 30%;
+  overflow: hidden;
+  margin-left: 1%;
+}
+
+ion-icon[name="search"] {}
+
+.List-streetName:after {}
+
+.List-streetName:focus {
+  border: none;
+  outline: none;
+}
+
+.List-addRestaurant,
+.Filter.inline {
+  position: absolute;
+  right: 2%;
+  top: 4.5%;
+  border: none;
+  color: #8F2FFD;
+  background: none;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+
+.List-addRestaurant.active {
+  background: #8F2FFD;
+  border-radius: 3vh;
+  color: #fff;
+  -webkit-border-radius: 3vh;
+  -moz-border-radius: 3vh;
+  -ms-border-radius: 3vh;
+  -o-border-radius: 3vh;
+}
+
+.Filter.inline {
+  left: 2%;
+  transition: ease-in-out .2s;
+  -webkit-transition: ease-in-out .2s;
+  -moz-transition: ease-in-out .2s;
+  -ms-transition: ease-in-out .2s;
+  -o-transition: ease-in-out .2s;
+}
+
+
+.Filter {
+  z-index: 0 !important;
+  position: absolute;
+  color: #fff;
+  bottom: 25%;
+  left: 13.2%;
+  border-radius: 1.3vw;
+  transition: ease-in-out .5s;
+  width: 10%;
+  height: 6%;
+  background: linear-gradient(270deg, #E65FEF, #8529ff);
+  -webkit-border-radius: 1.3vw;
+  -moz-border-radius: 1.3vw;
+  -ms-border-radius: 1.3vw;
+  -o-border-radius: 1.3vw;
+  -webkit-transition: ease-in-out .5s;
+  -moz-transition: ease-in-out .5s;
+  -ms-transition: ease-in-out .5s;
+  -o-transition: ease-in-out .5s;
+  text-align: left;
+  padding: 1.2%;
+}
+
+.Filter-title {
+  font-size: .7rem;
+  position: absolute;
+  top: -2%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+
+
+.List-cards {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

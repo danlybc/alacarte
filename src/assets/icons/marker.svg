@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39.736" height="52.71" viewBox="0 0 39.736 52.71">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e65fef"/>
+      <stop offset="1" stop-color="#8529ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_25" data-name="Groupe 25" transform="translate(-502 -278)">
+    <g id="Groupe_24" data-name="Groupe 24" transform="translate(502 278)">
+      <path id="Union_11" data-name="Union 11" d="M14.988,40.578A20.484,20.484,0,0,1,0,20.6C0,9.224,8.9,0,19.868,0S39.736,9.224,39.736,20.6A20.482,20.482,0,0,1,24.69,40.593L19.8,52.71Z" fill="url(#linear-gradient)"/>
+      <path id="Union_10" data-name="Union 10" d="M14.005,36.566a18.565,18.565,0,1,1,9.065.014L18.5,47.5Z" transform="translate(1.303 2.606)" fill="#fff"/>
+    </g>
+    <path id="Icon_metro-spoon-fork" data-name="Icon metro-spoon-fork" d="M6.985,1.928a3.771,3.771,0,0,0-3.45,4.025A3.949,3.949,0,0,0,6.189,9.87l-.571,9.31A1.071,1.071,0,0,0,6.7,20.328h.575a1.071,1.071,0,0,0,1.08-1.148L7.781,9.87a3.949,3.949,0,0,0,2.654-3.917A3.771,3.771,0,0,0,6.985,1.928Zm11.6,0-.958,5.75H16.9l-.479-5.75h-.479l-.479,5.75h-.719l-.958-5.75H13.31V9.4a.575.575,0,0,0,.575.575h1.5l-.565,9.2a1.071,1.071,0,0,0,1.08,1.148h.575a1.071,1.071,0,0,0,1.08-1.148l-.565-9.2h1.5A.575.575,0,0,0,19.06,9.4V1.928Z" transform="translate(510.452 286.74)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

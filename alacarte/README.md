@@ -4,11 +4,12 @@
 Àlacarte is a ReactJS based app where you can browse a map and search for restaurants either at your location or manually.
 
 # Pre-Requisite and Warnings
+
 This is a school project for [OpenClassrooms](https://openclassrooms.com/) Front-end app developer course.
 Given the nature of the project, all user interactions are local and won't be exchanged with a server,
 if you add a restaurant or a review, only you can view it and it won't be there if you refresh the page.
 
-However, if you decide to share your location, please keep in mind that Àlacarte uses Google Maps API services.
+However, if you decide to share your location, please keep in mind that Àlacarte uses [Google Maps API services](https://developers.google.com/maps/documentation) and is bound to its [Google Privacy Policy](https://www.google.com/policies/privacy).
 
 ## Install
 
@@ -19,19 +20,22 @@ Inside **alacarte** folder, do the following
 ```bash
 npm install
 ```
+
 Then add your API to two main files to make the app work :
 
 [**./src/boostrapURLKeys.js**](./src/boostrapURLKeys.js) (used for GoogleMapReact module and to get Google Street View photos inside cards)
-line 2 
+line 2
+
 ```bash
 key:  'yourAPIKEY',
 ```
+
 [**./public/index.html**](./public/index.html) (used to get results from search API when adding a new restaurant OR manually browsing cities)
 line 20
+
 ```bash
 <script  src="https://maps.googleapis.com/maps/api/js?libraries=places&key=yourAPIkey">
 ```
-
 
 ## Running it locally
 
@@ -41,3 +45,4 @@ line 20
 npm start
 ```
 
+[Live version](alacarte.danly.co)

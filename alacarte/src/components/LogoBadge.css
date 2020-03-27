@@ -1,0 +1,119 @@
+.LogoBadge {
+  transition: ease-in-out 0.2s;
+  /*pos*/
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 13;
+  /*size*/
+  padding: 10px;
+  height: 5%;
+  width: 13%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  /*customization*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
+  background: #fff;
+  color: #8529ff;
+  border-radius: 1.3vw;
+  -webkit-border-radius: 1.3vw;
+  -moz-border-radius: 1.3vw;
+  -ms-border-radius: 1.3vw;
+  -o-border-radius: 1.3vw;
+  -webkit-transition: ease-in-out 0.2s;
+  -moz-transition: ease-in-out 0.2s;
+  -ms-transition: ease-in-out 0.2s;
+  -o-transition: ease-in-out 0.2s;
+}
+
+.LogoBadge-logo {
+  width: 20%;
+  height: 100%;
+  transition: ease-in-out 0s;
+  -webkit-transition: ease-in-out 0s;
+  -moz-transition: ease-in-out 0s;
+  -ms-transition: ease-in-out 0s;
+  -o-transition: ease-in-out 0s;
+}
+
+.LogoBadge-title {
+  font-size: 1.7em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(270deg, #e65fef, #8529ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.LogoBadge-hidden {
+  width: 2%;
+  flex-wrap: wrap;
+}
+
+.LogoBadge-hidden .LogoBadge-logo {
+  width: 70%;
+}
+
+.LogoBadge-hidden .LogoBadge-title {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.LogoBadge:hover {
+  cursor: pointer;
+}
+
+.LogoBadge:hover .LogoBadge-logo {
+  animation: ease-in-out Logo-Hover 3s infinite;
+  -webkit-animation: ease-in-out Logo-Hover 3s infinite;
+}
+
+@keyframes Logo-Hover {
+  0% {
+  }
+
+  25% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+
+  30% {
+  }
+
+  31% {
+  }
+
+  100% {
+  }
+}
+
+/* 
+@media only screen and (max-width: 300px) {
+
+
+  .LogoBadge {
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    justify-content: space-between;
+    border-radius: 8vw;
+    -webkit-border-radius: 8vw;
+    -moz-border-radius: 8vw;
+    -ms-border-radius: 8vw;
+    -o-border-radius: 8vw;
+  }
+
+  .LogoBadge-logo {
+    width: 30%;
+  }
+} */
