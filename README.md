@@ -3,7 +3,7 @@
 ![presentation banner](./readme-banner.png)
 Àlacarte is a ReactJS based app where you can browse a map and search for restaurants either at your location or manually.
 
-Online version here : [Àlacarte](https://alacarte.danly.co/)
+[Online version](https://alacarte.danly.co/)
 
 # Pre-Requisite and Warnings
 
